@@ -7,7 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
 
-  const url = "https://crud-operation-neon.vercel.app/";//replace in place of this  http://localhost:2000
+  const url = "crud-operation-neon.vercel.app";//replace in place of this  http://localhost:2000
 
   const [contacts, setcontacts] = useState([])
   const [ShowModel, setShowModel] = useState(false)
